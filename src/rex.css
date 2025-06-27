@@ -1,0 +1,99 @@
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+#head{
+    display: flex;
+    background-color: white;
+   
+}
+#head h2{
+      margin-top: -10px;
+      margin-left: 150px; 
+      margin-right: 20px; 
+      margin-bottom: 20px;
+}
+#head h2 a{
+  text-decoration: none;
+}
+[type="search"]{
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 640px;
+    height: 45px;
+    border-radius:10px; 
+}
+#head div{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+#head i{
+    margin-top:5px;
+    font-size: 2em;
+    padding-left: 20px;
+    margin-left: -25px;
+}
+#head a:visited{
+    color: black;
+}
+#head div a:hover{
+    color: red
+} 
+.header{
+    background-color: #e2e3e5;
+}
+.header ul{
+    list-style-type: none; 
+    display: flex; 
+    margin-top: 0px; 
+    margin-bottom:0px; 
+    height: 50px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+.header a:link{
+    text-decoration: none;
+}
+.header a:visited{
+    color: black;
+}
+.list{
+         margin: auto;
+}
+
+.cards{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    display: inline-block;
+}
+/* .list1{
+    margin: auto;
+} */
+.list1 img{
+  border-radius: 15px;
+}
+.list1 :hover{
+    transform: scale(1.01,1.01);
+   
+}
+.cards ul{
+    list-style-type: none; 
+}
+.productName1{
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+.price{
+    margin-top: 5px;
+}
+.cards1{
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.cards1 ul{
+    list-style-type: none; 
+    display: flex;
+}

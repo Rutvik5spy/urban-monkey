@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Short Sleeve Off White Shirt",
+        "price":2430,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/coastal-soul-resort-shirt-25shlf10-wh-s-428599.jpg?v=1748981586&width=400"
+    },
+    {
+        "id":2,
+        "name":"Metal Head Trucker",
+        "price":2321,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/31-01-25_URBAN_MONKEY_Mockup19719_400x.jpg?v=1739946468"
+    },
+    {
+        "id":3,
+        "name":"Short Sleeve Black Shirt // System Error",
+        "price":1999,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/be-happy-02-901446.jpg?v=1733829343&width=700"
+    },
+    {
+        "id":4,
+        "name":"UM Core Vintage // Majolica Blue",
+        "price":2500,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/Urban-monkey-6039-867035_400x.jpg?v=1733829637"
+    }   
+]
