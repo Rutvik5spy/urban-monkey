@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Nerd // 002",
+        "price":1111,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/nerd-002-sg0006-brn-642683_500x.jpg?v=1734935537"
+    },
+    {
+        "id":2,
+        "name":"Miami vice // 005",
+        "price":1200,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/miami-vice-005-b12401-c3-769878_500x.jpg?v=1734935456"
+    },
+    {
+        "id":3,
+        "name":"Basecamp // 001",
+        "price":1400,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/Basecamp_wraparound_black_red_hiking_sunglasses_01-946780_500x.jpg?v=1734935014"
+    },
+    {
+        "id":4,
+        "name":"Matrix // 004",
+        "price":1400,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/matrix-004-8022-c5-567392_500x.jpg?v=1734935402"
+    }   
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Grid Storm Ripstop Backpack",
+        "price":2850,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/grid-storm-ripstop-backpack-um24db006-blk-264312_400x.jpg?v=1735447726"
+    },
+    {
+        "id":2,
+        "name":"wallet // 002",
+        "price":1500,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/wallet-002-rhw001-rdsl-505809_400x.jpg?v=1734936226"
+    },
+    {
+        "id":3,
+        "name":"Multi-utility pouch // Neon",
+        "price":400,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/multi-utility-pouch-neon-um23006-ngrn-233198_400x.jpg?v=1734936334"
+    },
+    {
+        "id":4,
+        "name":"Keychain // 013",
+        "price":250,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/Black_Red_Keychain_01-122257_400x.jpg?v=1733830139"
+    }   
+]

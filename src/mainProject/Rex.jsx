@@ -8,7 +8,7 @@ const Rex = (prodlist)=>{
         if(prodlist){
             return prodlist.map((data)=>{
                 return(
-        <div key={data.id} class="cards">
+        <div key={data.id}>
         <ul>
         <li class="list1">
         <a href="a"><img src={data.img} alt="img2" width="300px" height="400px" /></a>
@@ -57,11 +57,11 @@ const Rex = (prodlist)=>{
          </ul>
      </div>
     
-     <div>
-            <div class="list1" >
+
+            <div class="cards" >
                 {renderList(prodlist)}
             </div>
-        </div>
+        
 
 
 

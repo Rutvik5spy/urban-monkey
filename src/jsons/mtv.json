@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Cypher Hooded Zipper Jacket_MTV x Urban Monkey",
+        "price":2850,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/MTV_Cypher_Hooded_Zipper_Jacket_02-227877.jpg?v=1733829642&width=400"
+    },
+    {
+        "id":2,
+        "name":"Royalty Varsity Jacket_MTV x Urban Monkey",
+        "price":5909,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/royalty-varsity-jacket-mtv-x-urban-monkey-um24a-mtv-jk1-s-718389.jpg?v=1748830556&width=400"
+    },
+    {
+        "id":3,
+        "name":"Sync_MTV x Urban Monkey",
+        "price":1900,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/sync-mtv-x-urban-monkey-um24a-mtv-bf5-xs-227561.jpg?v=1743040055&width=400"
+    },
+    {
+        "id":4,
+        "name":"Tide_MTV x Urban Monkey",
+        "price":2300,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/tide-mtv-x-urban-monkey-um24a-mtv-ss3-xs-824941.jpg?v=1743040123&width=400"
+    }   
+]

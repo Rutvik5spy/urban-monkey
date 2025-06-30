@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Sunset Stripe Resort Shirt",
+        "price":1430,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/sunset-stripe-resort-shirt-25shlf12-mcr-s-343345.jpg?v=1748981588&width=400"
+    },
+    {
+        "id":2,
+        "name":"Metal Head Trucker",
+        "price":1321,
+        "img":"https://www.urbanmonkey.com/cdn/shop/files/trucker-monkey-001-umbt002-blk-495532.jpg?v=1734936032&width=500"
+    },
+    {
+        "id":3,
+        "name":"Everybody’s Something // Cropped Tee",
+        "price":2999,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/31-01-25_URBAN_MONKEY_Mockup20255_400x.jpg?v=1739942126"
+    },
+    {
+        "id":4,
+        "name":"Rich Kid Denim // Washed Blue",
+        "price":2500,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/rich-kid-denim-washed-blue-um24a-de-006-xs-835713_400x.jpg?v=1734935737"
+    }   
+]

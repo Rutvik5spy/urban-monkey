@@ -64,18 +64,14 @@
 
 .cards{
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 0px;
-    display: inline-block;
+    margin-left: 70px;
+    display: flex;
 }
-/* .list1{
-    margin: auto;
-} */
 .list1 img{
   border-radius: 15px;
 }
 .list1 :hover{
-    transform: scale(1.01,1.01);
+    transform: scale(1.02,1.02);
    
 }
 .cards ul{
@@ -87,13 +83,4 @@
 }
 .price{
     margin-top: 5px;
-}
-.cards1{
-    margin-left: 200px;
-    margin-right: 200px;
-
-}
-.cards1 ul{
-    list-style-type: none; 
-    display: flex;
 }

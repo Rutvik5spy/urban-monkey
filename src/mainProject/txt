@@ -1,0 +1,150 @@
+
+import React from "react";
+import '../rex.css';
+import { Link } from "react-router-dom";
+
+const Cards1 = (prodlist)=>{
+
+    const renderList = ({prodlist})=>{
+        if(prodlist){
+            return prodlist.map((data)=>{
+                return(
+        <div key={data.id}>
+        <ul>
+        <li class="list1">
+        <a href="a"><img src={data.img} alt="img2" width="300px" height="400px" /></a>
+        <p class="productName1">{data.name}</p>
+        <p class="price">Rs.{data.price}</p> 
+        </li>
+        </ul>  
+        </div>
+                )
+            })
+        }
+    }
+
+    return(
+        <div>
+
+            <div id="head" >
+         <h2 class="roboto"><Link to='/'  >URBAN MONKEY®</Link></h2>
+         <input type="search" placeholder="SEARCH FOR PRODUCTS"/>  
+          <div>
+        <Link to='/login'><i class="fa-regular fa-user"></i></Link>
+         <a href="wqww"><i class="fa-regular fa-heart"></i></a>
+         <a href="dd"><i class="fa fa-cart-shopping"></i></a>
+         </div>
+       
+     </div>
+
+      <div class="header" >
+         <ul>
+                <li class="list"><Link to='/norestock'>NO RESTOCK</Link></li>
+                         <li class="list"><Link to='/hats'>HATS & CAPS</Link></li>
+                         <li class="list"><Link to='/rexs'>RE X UM</Link></li> 
+                         <li class="list"><Link to='/system'>SYSTMS</Link></li>
+                         <li class="list"><Link to='/mtv'>MTV X UM</Link></li>
+                         <li class="list"><Link to='/eyewear'>EYEWEAR</Link></li>
+                         <li class="list"><Link to='/apparel'>APPAREL</Link></li>
+                         <li class="list"><Link to='/accesries'>ACCESSORIES</Link></li>
+                         <li class="list"><Link to='/about'>ABOUTS US</Link></li>
+         </ul>
+          </div>
+
+     <div class="cards">
+                {renderList(prodlist)}
+     </div>
+
+      <div class="VIEW">
+         <a href="index.html"><button>VIEW ALL</button></a> 
+     </div>
+
+    <div class="foot">
+        <h2 >JOIN THE NEWSLETTER FOR THE EXCLUSIVE UPDATES</h2>
+
+        <div >
+        <input type="email" placeholder="YOUR EMAIL ADDRESS"/>
+        <input type="submit" value="SUBSCRIBE"/>
+       </div>
+
+    </div>
+
+    <div class="footer">
+        <ul>  
+            <li class="list2"><h4>COOL STUFF</h4></li>             
+
+             <li class="list2"><h4>BORING STUFF</h4></li>
+             
+             <li class="list2"><h4>LEGAL</h4></li>
+           
+             <li class="list2"><h4>LET'S CONNECT</h4></li>
+
+             <li class="list2"><h4>STORE LOCATOR</h4></li>
+        </ul>
+    </div>
+    
+    {/* style="list-style-type: none;" */}
+
+ <div class="footer1">
+    <div class="footer1-1">
+        <ul  class="footer1-1-a">
+                    <li>about us</li>
+                    <li>blog</li>
+                    <li>shop all</li>
+                    <li>new arrivals</li>
+                    <li>hats and caps</li>
+                    <li>apparel</li>
+                    <li>eyewear</li>
+                    <li>accessories</li>
+                    <li>collabs</li>
+                    <li>rewards</li>
+                 </ul>
+    </div>
+
+
+    <div>
+         <ul class="footer1-1-b">
+                    <li>track order</li>
+                    <li>returns</li>
+         </ul>
+    </div>
+
+    <div>
+         <ul class="footer1-1-c">
+                    <li>terms and conditions</li>
+                    <li>privacy policy</li>
+                    <li>shipping policy</li>
+                    <li>returns policy</li>
+                 </ul>
+    </div>
+
+    <div>
+        <ul class="footer1-1-d">
+                    <li>whatsapp</li>
+                    <li>email</li>
+                    <li>contact us</li>
+                 </ul>
+
+    </div>
+
+     <div>
+        <ul  class="footer1-1-e">
+                    <li>mumbai</li>
+                    <li>bangalore</li>
+                    <li>pune</li>
+                 </ul>
+
+     </div>
+
+   
+   
+    </div>
+
+
+       
+        </div>
+    )
+}
+
+export default Cards1;
+ 

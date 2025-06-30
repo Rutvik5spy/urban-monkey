@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import JSON from './norex.json';
-import Rex from "./Rex";
+import JSON from '../jsons/hatscap.json';
+import Hats from "./Hats";
   
-class Product extends Component{
+class Product2 extends Component{
     constructor(){
         super();
         this.state={
@@ -12,10 +12,10 @@ class Product extends Component{
     render(){
         return(
             <div>
-                <Rex prodlist={this.state.products}/>
+                <Hats prodlist={this.state.products}/>
             </div>
         )
     }
 }
 
-export default Product;
+export default Product2;

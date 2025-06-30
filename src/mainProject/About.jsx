@@ -30,15 +30,6 @@ export default function About(){
         </ul>
      </div>
 
-     
-
-
-
-
-
-
-
-
 
     <div>
          <h1 class="about1">VISION :-</h1>

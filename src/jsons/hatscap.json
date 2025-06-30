@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Cali Sun",
+        "price":1330,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/J4A8504-910661_500x.jpg?v=1733829906"
+    },
+    {
+        "id":2,
+        "name":"frontrunner",
+        "price":1500,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/J4A8504-910661_500x.jpg?v=1733829906"
+    },
+    {
+        "id":3,
+        "name":"Red Beanie",
+        "price":999,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/red-beanie-um23smb013-rd-889006_400x.jpg?v=1734935728"
+    },
+    {
+        "id":4,
+        "name":"Utility",
+        "price":1250,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/utility-um23fpd-014-603807_500x.jpg?v=1736049066"
+    }   
+]

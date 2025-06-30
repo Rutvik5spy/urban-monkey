@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Women’s Lightweight Zip Jacket",
+        "price":1500,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/womens-lightweight-zip-jacket-um24-core-zjk1-s-451296_400x.jpg?v=1746187015"
+    },
+    {
+        "id":2,
+        "name":"Lost Angels // Women’s Fitted Crop Top",
+        "price":2200,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/lost-angels-womens-fitted-crop-top-25ctrg1-pn-xs-542709_400x.jpg?v=1745034529"
+    },
+    {
+        "id":3,
+        "name":"Flow Cropped Hoodie_MTV x Urban Monkey",
+        "price":3400,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/flow-cropped-hoodie-mtv-x-urban-monkey-um24a-mtv-h05-xs-294431_400x.jpg?v=1745034398"
+    },
+    {
+        "id":4,
+        "name":"WE GO HIGH // CROPPED SHIRT",
+        "price":3400,
+        "img":"https://cdn.shopify.com/s/files/1/0661/7423/files/we-go-high-cropped-shirt-sh-olv-006-s-561955_400x.jpg?v=1734936219"
+    }   
+]
