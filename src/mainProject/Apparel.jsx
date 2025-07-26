@@ -11,10 +11,10 @@ const Apparel = (prodlist)=>{
                 return(
         <div key={data.id}>
         <ul>
-        <li class="list1">
+        <li className="list1">
         <a href="a"><img src={data.img} alt="img2" width="300px" height="400px" /></a>
-        <p class="productName1">{data.name}</p>
-        <p class="price">Rs.{data.price}</p> 
+        <p className="productName1">{data.name}</p>
+        <p className="price">Rs.{data.price}</p> 
         </li>
         </ul>  
         </div>
@@ -27,30 +27,30 @@ const Apparel = (prodlist)=>{
         <div>
 
             <div id="head" >
-         <h2 class="roboto"><Link to='/'  >URBAN MONKEY®</Link></h2>
+         <h2 className="roboto"><Link to='/'  >URBAN MONKEY®</Link></h2>
          <input type="search" placeholder="SEARCH FOR PRODUCTS"/>  
           <div>
-        <Link to='/login'><i class="fa-regular fa-user"></i></Link>
-         <a href="wqww"><i class="fa-regular fa-heart"></i></a>
-         <a href="dd"><i class="fa fa-cart-shopping"></i></a>
+        <Link to='/login'><i className="fa-regular fa-user"></i></Link>
+         <a href="wqww"><i className="fa-regular fa-heart"></i></a>
+         <a href="dd"><i className="fa fa-cart-shopping"></i></a>
          </div>
        
      </div>
 
-      <div class="header" >
+      <div className="header" >
          <ul>
-                <li class="list"><Link to='/norestock'>NO RESTOCK</Link></li>
-                         <li class="list"><Link to='/hats'>HATS & CAPS</Link></li>
-                         <li class="list"><Link to='/rexs'>RE X UM</Link></li> 
-                         <li class="list"><Link to='/system'>SYSTMS</Link></li>
-                         <li class="list"><Link to='/mtv'>MTV X UM</Link></li>
-                         <li class="list"><Link to='/eyewear'>EYEWEAR</Link></li>
-                         <li class="list"><Link to='/apparel'>APPAREL</Link></li>
-                         <li class="list"><Link to='/accesries'>ACCESSORIES</Link></li>
-                         <li class="list"><Link to='/about'>ABOUTS US</Link></li>
+                <li className="list"><Link to='/norestock'>NO RESTOCK</Link></li>
+                         <li className="list"><Link to='/hats'>HATS & CAPS</Link></li>
+                         <li className="list"><Link to='/rexs'>RE X UM</Link></li> 
+                         <li className="list"><Link to='/system'>SYSTMS</Link></li>
+                         <li className="list"><Link to='/mtv'>MTV X UM</Link></li>
+                         <li className="list"><Link to='/eyewear'>EYEWEAR</Link></li>
+                         <li className="list"><Link to='/apparel'>APPAREL</Link></li>
+                         <li className="list"><Link to='/accesries'>ACCESSORIES</Link></li>
+                         <li className="list"><Link to='/about'>ABOUTS US</Link></li>
          </ul>
           </div>
-     <div class="header1">
+     <div className="header1">
         <ul>
             <li id="space">APPAREL</li>
             <li>HOME : APPAREL</li>
@@ -58,7 +58,7 @@ const Apparel = (prodlist)=>{
     </div>
 
        
-     <div class="cards">
+     <div className="cards">
                 {renderList(prodlist)}
         </div>
 

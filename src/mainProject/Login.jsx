@@ -3,7 +3,7 @@ import Home from '../mainProject/Home'
 export default function Login(){
 
     return(
-        <div class="loginBackground">
+        <div className="loginBackground">
 
         <div id="div1">
 
@@ -15,12 +15,12 @@ export default function Login(){
         <p>Enter your email and we'll send you a login code</p>
 
 
-        <div class="input1">
+        <div className="input1">
         <input   type="email" required  placeholder="Email"/>
         <br/><br/>
         </div>
 
-        <div class="input2">
+        <div className="input2">
         <input type="submit" value="Continue"/>
         <br/><br/>
         </div>

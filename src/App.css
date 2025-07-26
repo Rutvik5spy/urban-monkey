@@ -1,131 +1,178 @@
+/* App.css - Complete Fixed Version for Horizontal Cards Layout */
+
 .App{
     margin: 0px;
 }
- .roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
 }
+
+/* ========== HEADER STYLES ========== */
 #head{
     display: flex;
-    background-color: white;
-   
+    background-color: white !important;
 }
+
 #head h2{
-      margin-top: -10px;
-      margin-left: 150px; 
-      margin-right: 20px; 
-      margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
 #head h2 a{
-  text-decoration: none;
+    text-decoration: none;
 }
+
 [type="search"]{
     padding-left: 20px;
     margin-top: 20px;
     width: 640px;
     height: 45px;
-    border-radius:10px; 
+    border-radius:10px;
 }
+
 #head div{
     margin-left: 170px;
     margin-top: 20px;
 }
+
 #head i{
     margin-top:5px;
     font-size: 2em;
     padding-left: 20px;
     margin-left: -25px;
 }
+
 #head a:visited{
     color: black;
 }
+
 #head div a:hover{
-    color: red
-} 
-.header{
-    background-color: #e2e3e5;
+    color: red;
 }
+
+/* ========== NAVIGATION STYLES ========== */
+.header{
+    background-color: #e2e3e5 !important;
+}
+
 .header ul{
-    list-style-type: none; 
-    display: flex; 
-    margin-top: 0px; 
-    margin-bottom:0px; 
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom:0px;
     height: 50px;
     padding-right: 170px;
     padding-left: 170px;
 }
+
 .header a:link{
     text-decoration: none;
 }
+
 .header a:visited{
     color: black;
 }
+
 .list{
-         margin: auto;
+    margin: auto;
 }
-.background-image{  
+
+/* ========== BACKGROUND IMAGE STYLES ========== */
+.background-image{
     margin-left: -18px;
-    width: 1512px; 
+    width: 1512px;
     height:820px;
     margin-bottom: 20px;
-} 
+}
+
+/* ========== BUTTON STYLES ========== */
 .button-1{
     width: 600px;
     margin-right: 525px;
     margin-left: 525px;
 }
+
 .button-1 button{
     height: 30px;
     border-radius: 8px;
     background-color: white;
     color: #8babec;
-   
 }
+
 .button-1 button:hover{
     background-color: rgb(0, 0, 0);
 }
+
+/* ========== CARDS STYLES - FIXED FOR HORIZONTAL LAYOUT ========== */
 .cards{
-     margin-top: 20px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-right: 0px;
-    display: inline-block;
+    margin-right: 20px;
+    /* CRITICAL FIX: Change from inline-block to flex */
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
 }
+
+/* Each ul inside cards should behave as flex item */
+.cards > ul {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.cards ul{
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+}
+
 .list1{
     margin: auto;
 }
+
 .list1 img{
-  border-radius: 15px;
+    border-radius: 15px;
 }
-.list1 :hover{
+
+.list1:hover{
     transform: scale(1.03,1.03);
-   
 }
-.cards ul{
-    list-style-type: none; 
-    display: flex;
-}
+
 .productName1{
-    margin-top: 0px; 
+    margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .price{
     margin-top: 5px;
 }
+
+/* ========== CARDS1 STYLES ========== */
 .cards1{
-     margin-top: 20px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 0px;
     display: inline-block;
-
 }
+
 .cards1 ul{
-    list-style-type: none; 
+    list-style-type: none;
     display: flex;
 }
+
+/* ========== VIEW BUTTON STYLES ========== */
 .VIEW{
     text-align: center;
 }
+
 .VIEW button{
     width: 100px;
     height: 40px;
@@ -135,201 +182,241 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .VIEW button:hover{
     background-color: gray;
 }
+
+/* ========== FOOTER STYLES ========== */
 .foot{
-    background-color: #e2e3e5; 
+    background-color: #e2e3e5;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .foot h2{
-  text-align: center;
+    text-align: center;
 }
+
 .foot div{
-  text-align: center;
-  
+    text-align: center;
 }
+
 .foot [type="email"]{
     width: 950px;
     height: 30px;
     border: #e2e3e5;
 }
+
 .foot [type="submit"]{
     height: 30px;
     width: 100px;
     border: #e2e3e5;
     background-color: gray;
 }
+
 .footer{
     background-color: #e2e3e5;
     height: 100px;
     padding-top: 0px;
     position: relative;
 }
+
 .footer ul{
-    list-style-type: none; 
-    display: flex; 
+    list-style-type: none;
+    display: flex;
     margin: 0px 150px 0px 150px;
     padding: 0px;
 }
+
 .list2{
     padding-left: 80px;
     padding-right: 30px;
 }
+
 .footer1{
     display: flex;
-    margin: 0px; 
-    position: absolute;  
+    margin: 0px;
+    position: absolute;
     top: 286%;
     background-color: #e2e3e5;
     width: 1510px;
 }
+
 .footer1-1-a{
-   margin-left: 190px ;
-   margin-right: 103px;
-  list-style-type: none;
+    margin-left: 190px ;
+    margin-right: 103px;
+    list-style-type: none;
 }
+
 .footer1-1-a li{
     padding-bottom: 10px;
     font-weight: 530;
 }
+
 .footer1-1-b{
     margin-left: -20px;
     margin-right: 120px;
-     list-style-type: none;
+    list-style-type: none;
 }
+
 .footer1-1-b li{
     padding-bottom: 10px;
     font-weight: 530;
 }
+
 .footer1-1-c{
     margin-right: 3px;
     list-style-type: none;
 }
+
 .footer1-1-c li{
     padding-bottom: 10px;
     font-weight: 530;
 }
+
 .footer1-1-d{
     margin-left: -30px;
     margin-right: 130px;
     list-style-type: none;
 }
+
 .footer1-1-d li{
     padding-bottom: 10px;
     font-weight: 530;
 }
+
 .footer1-1-e{
     list-style-type: none;
 }
+
 .footer1-1-e li{
     padding-bottom: 10px;
     font-weight: 530;
 }
 
+/* ========== LOGIN STYLES ========== */
 #div1{
-     width: 450px;
-     height: 350px;
-     border: 1px white solid;
-     margin: 200px 550px 0px 550px;
-     background-color: white;
-     border-radius: 10px;
-    
+    width: 450px;
+    height: 350px;
+    border: 1px white solid;
+    margin: 200px 550px 0px 550px;
+    background-color: white;
+    border-radius: 10px;
 }
+
 #div1:hover{
     transform: scale(1.1,1.1);
 }
+
 h2{
     text-align: center;
     font-weight: bolder;
     padding-top: 30px;
 }
+
 h3{
     padding-left: 20px;
     margin-bottom: -5px;
 }
-p{  
+
+p{
     padding-left: 20px;
 }
 
 .input1{
     padding-left: 20px;
-    
 }
+
 [type="email"]{
-     width: 400px;
-     height: 40px;
-     padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
 }
+
 .input2{
     padding-left: 20px;
     padding-bottom: 25px;
 }
+
 [type="submit"]{
-     width: 415px;
-     height: 40px;
-     background-color: black;
-     color: white;
+    width: 415px;
+    height: 40px;
+    background-color: black;
+    color: white;
 }
+
 a{
     padding-left: 20px;
     color: black;
 }
+
 a:link{
     text-decoration: none;
 }
+
 .header1{
     background-color: #f1f1f1ff;
-   
 }
+
 .header1 ul{
-    list-style-type: none; 
-    display: flex; 
-    margin-top: 0px; 
-    margin-bottom:0px; 
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom:0px;
     height: 30px;
     padding-right: 170px;
     padding-left: 170px;
 }
+
 .header1 li{
     padding-top: 8px;
     font-size: small;
 }
+
 #space{
     margin-right:950px;
 }
+
+/* ========== ABOUT PAGE STYLES ========== */
 .about1{
     margin-left: 100px;
 }
+
 .about3{
-    margin-left: 465px; 
-    margin-right: 455px; 
+    margin-left: 465px;
+    margin-right: 455px;
 }
+
 .about2{
     margin-left: 100px;
 }
+
 .about4 {
-    margin-left: 100px; 
+    margin-left: 100px;
     font-size: large;
 }
+
 .loginBackground{
     background-color: #F5F5F5;
 }
+
 .BOX1{
     height: 150px;
     width: 600px;
     background-color: #eeeeee;
     border-radius: 5px;
 }
+
 .but{
     margin-left: 12px ;
     margin-top: 5px;
     width: 55px;
     border-radius: 5px;
     background-color: white;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .but1{
     border-radius: 5px;
     background-color: white;
@@ -337,6 +424,173 @@ a:link{
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
 .card{
     border-style: none;
+}
+
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+/* Desktop: 1025px and up - FORCE HORIZONTAL LAYOUT */
+@media (min-width: 1025px) {
+    .cards {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+    }
+
+    .cards > ul {
+        min-width: 280px !important;
+        max-width: 300px !important;
+        flex-shrink: 0 !important;
+    }
+
+    .background-image {
+        width: 100% !important;
+        max-width: 1512px !important;
+        height: auto !important;
+    }
+}
+
+/* Tablet: 601px to 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    #head {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    [type="search"] {
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .header ul,
+    .footer ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards {
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .cards > ul {
+        min-width: 280px !important;
+        max-width: 45% !important;
+    }
+
+    .background-image {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0;
+    }
+
+    .button-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .button-1 button {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .footer1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        position: static;
+        padding: 20px;
+    }
+
+    .foot [type="email"] {
+        width: 80%;
+    }
+
+    .foot [type="submit"] {
+        width: 150px;
+    }
+}
+
+/* Mobile: up to 600px */
+@media (max-width: 600px) {
+    #head {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #head h2 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    [type="search"] {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    #head div {
+        margin: 10px 0;
+    }
+
+    .header ul,
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .cards {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .cards > ul {
+        width: 90% !important;
+        max-width: none !important;
+    }
+
+    .background-image {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0;
+    }
+
+    .button-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .button-1 button {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .list1 {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .foot [type="email"],
+    .foot [type="submit"] {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: static;
+        padding: 10px;
+    }
 }

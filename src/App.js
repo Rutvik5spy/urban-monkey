@@ -3,7 +3,6 @@ import React from "react";
 import { Route,  BrowserRouter as Router, Routes} from 'react-router-dom';
 import Login from "./mainProject/Login";
 import Home from "./mainProject/Home";
-//import Cards1 from "./mainProject/Cards1";
 import About from './mainProject/About';
 import Carts from './mainProject/Carts';
 import Product from './mainProject/Product';
